@@ -2,11 +2,6 @@
 set -e
 
 # --- CONFIGURACIÓN INTERACTIVA ---
-clear
-echo "═══════════════════════════════════════════════════"
-echo "   INSTALADOR ARCH LINUX - EQUIPOS DE BAJOS RECURSOS"
-echo "═══════════════════════════════════════════════════"
-
 # --- VERIFICAR CONEXIÓN A INTERNET ---
 check_network() {
     if ! ping -c 3 archlinux.org &> /dev/null; then
